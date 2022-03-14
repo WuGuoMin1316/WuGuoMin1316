@@ -1,0 +1,21 @@
+#ifndef  _X_RUNMODE_ENUM_H_
+#define  _X_RUNMODE_ENUM_H_
+
+typedef enum
+{
+    RUNMODE_CHARGER,//充电
+    RUNMODE_STANDBY,//待机,自动进入低功耗模式
+    RUNMODE_STANDARD,//标准拖地模式
+	RUNMODE_DRY_MOPPING,//干拖
+	RUNMODE_WET_MOPPING,//加强湿拖
+	RUNMODE_BLEEDWATER,//排污水
+	RUNMODE_ADDWATER,//加清水
+	RUNMODE_SELFCLEANING,//自清洁
+	RUNMODE_VACUUMIZE,    //抽真空
+	RUNMODE_DRAINANDADDWATER,//排污和加清水
+	RUNMODE_DEODORIZE,//烘干消毒
+};
+
+
+
+#endif
